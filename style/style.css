@@ -11,7 +11,6 @@ body{
     background-color: #DAD2D8;
 }
 header{
-    border: 2px solid black;
     width: 100%;
     height: 100px;
     display: flex;
@@ -19,15 +18,16 @@ header{
     background-color: rgb(1, 186, 239);
 }
 .logo-header{
-    border: 2px solid black;
     width: 300px;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 header img{
     height: 100%;
 }
 header h1{
-    border: 2px solid black;
     width: 300px;
     display: flex;
     justify-content: center;
@@ -35,11 +35,15 @@ header h1{
     color: white;
 }
 nav{
-    border: 2px solid black;
     width: 300px;
     height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-
+.menu .items{
+    color: white;
+}
 
 footer{
     border: 2px solid black;
