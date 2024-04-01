@@ -44,17 +44,22 @@ nav{
     width: 300px;
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .menu .items{
     color: white;
 }
 #contenidos{
-    width: 90%;
+    width: 100%;
 }
 #objetivo{
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.objetivo-contenido{
+    width: 90%;
     display: flex;
     padding: 20px;
     margin-top: 20px;
@@ -69,9 +74,51 @@ nav{
     color: #0B4F6C;
 }
 .objetivo-imagen{
-    min-width: 100px;
+    width: 300px;
+}
+#ensalada-de-papa{
+    background-color: #A5F8D3;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.ensalada-de-papa-contenido{
+   width: 90%;
+}
+.ensalada-de-papa-titulo{
+    font-size: 30px;
+    color: #0B4F6C;
+    margin-top: 20px;
+}
+.ensaladaDePapa-info1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.ensaladaDePapa-info1-ingredientes-titulo, .ensaladaDePapa-info2-preparacion-titulo{
+    font-size: 26px;
+    color: #A5243D;
+}
+.ensaladaDePapa-info1-ingredientes-lista{
+    list-style: none;
+    margin-top: 5px;
+}
+.ensaladaDePapa-info1-ingredientes-lista-items{
+    font-size: 20px;
+}
+.ensaladaDePapa-info1-ingredientes-imagen{
+    width: 300px;
+
+}
+.ensaladaDePapa-info2{
+    padding: 20px;
+}
+.ensaladaDePapa-info2-preparacion{
+    margin-top: 5px;
 }
 footer{
     border: 2px solid black;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
