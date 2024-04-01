@@ -3,6 +3,12 @@
     padding: 0;
     font-family: "Montserrat", sans-serif;;
 }
+p{
+    font-size: 20px;
+}
+h2{
+    font-size: 30px;
+}
 body{
     width: 100%;
     display: flex;
@@ -44,7 +50,27 @@ nav{
 .menu .items{
     color: white;
 }
-
+#contenidos{
+    width: 90%;
+}
+#objetivo{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+}
+.objetivo-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.objetivo-titulo{
+    margin-bottom: 20px;
+    color: #0B4F6C;
+}
+.objetivo-imagen{
+    min-width: 100px;
+}
 footer{
     border: 2px solid black;
     font-family:Georgia, 'Times New Roman', Times, serif
