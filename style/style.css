@@ -118,7 +118,77 @@ nav{
 .ensaladaDePapa-info2-preparacion{
     margin-top: 5px;
 }
+#contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.contacto-titulo{
+    color: #0B4F6C;
+}
+.formulario{
+    background-color: #a5f8d3c4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-top: 5px;
+    padding: 20px;
+}
+.formulario-nombreYapellido{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.formulario-nombreYapellido input{
+    width: 48%;
+}
+.formulario-email{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.formulario-email input{
+    width: 100%;
+}
+.formulario-nivel-titulo{
+    font-size: 26px;
+    color: #A5243D;
+    margin-top: 10px;
+}
+.formulario-nivel{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.formulario-nivel-check{
+    display: flex;
+}
+.formulario-enviar{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+}
+.formulario-comentario{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.formulario-comentario textarea{
+    width: 100%;
+    height: 100px;
+}
 footer{
-    border: 2px solid black;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #A5243D;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.derecho-de-autor{
+    color: white;
 }
