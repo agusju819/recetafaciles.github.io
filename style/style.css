@@ -186,9 +186,20 @@ footer{
     background-color: #A5243D;
     width: 100%;
     margin-top: 20px;
+    padding: 20px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.redes-sociales{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.redes-sociales img{
+    width: 50px;
 }
 .derecho-de-autor{
     color: white;
+    margin-top: 20px;
 }
